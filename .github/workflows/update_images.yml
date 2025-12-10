@@ -14,7 +14,6 @@ on:
     # │ │ │ │ ┌───────────── day of the week (0 - 6)
     # │ │ │ │ │
     # │ │ │ │ │
-    # * * * * *
     - cron: '0 0 * * *'  
   
   # Optional: Also trigger on push to specific branches
@@ -87,4 +86,5 @@ jobs:
       #   uses: some-notification-action@v1
       #   with:
       #     status: ${{ job.status }}
+
       #     webhook: ${{ secrets.WEBHOOK_URL }} 
